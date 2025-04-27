@@ -1,0 +1,27 @@
+body {
+    font-family: 'Tajawal', sans-serif;
+    line-height: 1.6;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 1rem 0;
+}
+
+.footer p {
+    margin: 0;
+}
